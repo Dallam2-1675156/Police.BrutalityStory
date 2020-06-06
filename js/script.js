@@ -5,7 +5,7 @@
     var namerollDiv = document.getElementById('nameroll');
     for(i=0; i<NAMES_2019.length; i++) {
       var p = document.createElement('p');
-      p.classList.add('names');
+      p.classList.add('names', 'fade-in');
       p.innerHTML=NAMES_2019[i];
       namerollDiv.append(p);
     }
