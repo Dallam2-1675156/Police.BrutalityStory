@@ -15,6 +15,15 @@ body {
   padding: 14px;
 }
 
+h1{
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+   line-height: 1.2em;
+}
+
 #nameroll {
   width: 90%;
   display: flex;
@@ -29,6 +38,7 @@ p.names {
   padding: 5px 10px;
   margin: 0;
   line-height: 1.1em;
+  font-size: 1em;
 }
 
 p.names.hidden{
