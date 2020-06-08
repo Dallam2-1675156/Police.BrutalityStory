@@ -15,13 +15,13 @@ body {
   padding: 14px;
 }
 
-h1{
+h1 {
   font-size: 3em;
 }
 
 p {
   font-size: 1.5em;
-   line-height: 1.2em;
+  line-height: 1.2em;
 }
 
 #nameroll {
@@ -41,19 +41,56 @@ p.names {
   font-size: 1em;
 }
 
-p.names.hidden{
+p.names.hidden {
   opacity: 0
 }
 
 p.names.fade-in {
-animation: fadeIn ease 10s;
--webkit-animation: fadeIn ease 10s;
--moz-animation: fadeIn ease 10s;
--o-animation: fadeIn ease 10s;
--ms-animation: fadeIn ease 10s;
-animation-fill-mode: forwards;
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+  animation-fill-mode: forwards;
 }
+
 @keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+div.stats {
+  width: 50%;
+  min-width: 310px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 100px 0;
+}
+
+div.stats div.big-number {
+  font-size: 4em;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.finding {
+  padding: 10px 0 10px 24px;
+  margin: 0;
+  /* align-self: center; */
+}
+
+div.finding p {
+  margin: 0;
+}
+
+div.finding p.footnote {
+  font-size: 0.8em;
+  font-style: italic;
+  margin-top: 20px;
 }
