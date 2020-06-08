@@ -89,7 +89,7 @@ div.finding p {
   margin: 0;
 }
 
-div.finding p.footnote {
+div.finding p.footnote, p.footnote {
   font-size: 0.8em;
   font-style: italic;
   margin-top: 20px;
